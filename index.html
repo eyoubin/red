@@ -1,1 +1,25 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+
+    <!-- Immediately send the visitor to the new location -->
+    <meta http-equiv="refresh" content="0;url=https://e-booky.com/" />
+
+    <!-- Help search engines understand the canonical target -->
+    <link rel="canonical" href="https://e-booky.com/" />
+
+    <script>
+      // JS fallback (some bots ignore meta-refresh)
+      window.location.replace("https://e-booky.com/");
+    </script>
+  </head>
+
+  <body>
+    <p>If you are not redirected automatically, follow this
+       <a href="https://e-booky.com/">link to the new page</a>.
+    </p>
+  </body>
+</html>
